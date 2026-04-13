@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Moe Kyaw Aung</title>
+  <meta name="description" content="Contact Moe Kyaw Aung." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="container navbar">
+      <a href="index.html" class="logo">Moe Kyaw Aung</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn">🌙</button>
+        <button id="menuToggle" class="icon-btn mobile-only">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="section-label">Contact</span>
+        <h1>Let’s connect for Android development, collaboration, or freelance opportunities.</h1>
+        <p>
+          You can contact me by email, LinkedIn, GitHub, or the form below.
+        </p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Contact Information</h3>
+          <p><strong>Email:</strong> moekyawaung@engineer.com</p>
+          <p><strong>Phone:</strong> +959889000889</p>
+          <p><strong>Location:</strong> Tachileik, Myanmar</p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/moe-kyaw-aung-2653093a1" target="_blank">View Profile</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/Moe-KyawAung" target="_blank">View GitHub</a></p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-note">This is a demo contact form. Connect it with Formspree, Netlify Forms, or your backend API.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Moe Kyaw Aung. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
