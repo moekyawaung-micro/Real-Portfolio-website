@@ -1,0 +1,26 @@
+portfolio-website/
+│
+├── index.html
+├── about.html
+├── projects.html
+├── contact.html
+├── 404.html
+├── style.css
+├── script.js
+├── README.md
+│
+└── assets/
+    ├── images/
+    │   ├── profile.jpg
+    │   ├── ecommerce.png
+    │   ├── notes-app.png
+    │   ├── weather-app.png
+    │   └── dashboard.png
+    │
+    ├── icons/
+    │   ├── github.svg
+    │   ├── linkedin.svg
+    │   └── email.svg
+    │
+    └── resume/
+        └── Moe_Kyaw_Aung_CV.pdf
