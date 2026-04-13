@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Moe Kyaw Aung</title>
+  <meta name="description" content="Projects by Moe Kyaw Aung." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="container navbar">
+      <a href="index.html" class="logo">Moe Kyaw Aung</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn">🌙</button>
+        <button id="menuToggle" class="icon-btn mobile-only">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="section-label">Projects</span>
+        <h1>Practical projects built with different technologies.</h1>
+        <p>
+          These projects demonstrate experience in Android development, frontend design,
+          backend APIs, and full-stack application concepts.
+        </p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="android">Android</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card" data-category="android">
+          <h3>Android E-Commerce App</h3>
+          <p>Mobile shopping app with authentication, product browsing, and cart workflow.</p>
+          <p><strong>Tech:</strong> Kotlin, Firebase, REST APIs</p>
+          <a href="https://github.com/Moe-KyawAung/ecommerce" target="_blank">View Repository</a>
+        </div>
+
+        <div class="project-card" data-category="android">
+          <h3>Kotlin Notes App</h3>
+          <p>Simple Android notes application with Room Database and MVVM.</p>
+          <p><strong>Tech:</strong> Kotlin, Room Database, MVVM</p>
+        </div>
+
+        <div class="project-card" data-category="android">
+          <h3>Kotlin Weather App</h3>
+          <p>Android weather app with live API integration and clean UI.</p>
+          <p><strong>Tech:</strong> Kotlin, Retrofit, REST API</p>
+        </div>
+
+        <div class="project-card" data-category="android">
+          <h3>Firebase Chat App</h3>
+          <p>Real-time Android chat application with Firebase Authentication and Firestore.</p>
+          <p><strong>Tech:</strong> Kotlin, Firebase</p>
+        </div>
+
+        <div class="project-card" data-category="frontend">
+          <h3>Portfolio Website</h3>
+          <p>Responsive personal portfolio website with modern UI and project showcase.</p>
+          <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="project-card" data-category="frontend">
+          <h3>React Admin Dashboard</h3>
+          <p>Dashboard interface for charts, analytics, and admin workflows.</p>
+          <p><strong>Tech:</strong> React, JavaScript, CSS</p>
+        </div>
+
+        <div class="project-card" data-category="backend">
+          <h3>Node.js Authentication API</h3>
+          <p>Secure backend API for user registration and authentication.</p>
+          <p><strong>Tech:</strong> Node.js, Express.js, MongoDB, JWT</p>
+        </div>
+
+        <div class="project-card" data-category="backend">
+          <h3>Task Manager REST API</h3>
+          <p>RESTful API for task management workflows and CRUD operations.</p>
+          <p><strong>Tech:</strong> Node.js, Express.js, MongoDB</p>
+        </div>
+
+        <div class="project-card" data-category="fullstack">
+          <h3>E-Commerce Platform</h3>
+          <p>Full-stack application with inventory management and payment integration.</p>
+          <p><strong>Tech:</strong> React, Node.js, MongoDB, Redis, AWS</p>
+          <a href="https://github.com/Moe-KyawAung/ecommerce" target="_blank">View Repository</a>
+        </div>
+
+        <div class="project-card" data-category="fullstack">
+          <h3>AI-Powered Analytics Dashboard</h3>
+          <p>Analytics dashboard with visualization, reporting, and data-focused features.</p>
+          <p><strong>Tech:</strong> Python, FastAPI, React, PostgreSQL, Docker</p>
+          <a href="https://github.com/Moe-KyawAung/analytics-dashboard" target="_blank">View Repository</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Moe Kyaw Aung. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
